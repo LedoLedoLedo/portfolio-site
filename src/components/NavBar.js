@@ -9,7 +9,7 @@ function NavBar() {
   return (
     <div className="header">
       <Link to="/">
-        <h1>Portfolio</h1>
+        <h1>Alejandro Fernandez-Sarasua</h1>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
@@ -27,9 +27,9 @@ function NavBar() {
       </ul>
       <div className="hamburger" onClick={handleClick}>
         {click ? (
-          <FaTimes size={20} style={{ color: "purple" }} />
+          <FaTimes size={20} style={{ color: "black" }} />
         ) : (
-          <FaBars size={20} style={{ color: "purple" }} />
+          <FaBars size={20} style={{ color: "black" }} />
         )}
       </div>
     </div>
