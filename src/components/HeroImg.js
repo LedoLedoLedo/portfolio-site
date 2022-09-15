@@ -8,14 +8,14 @@ const HeroImg = () => {
       <div className="mask">
         {/* <img className='he' src={mountain} alt="mountainImg"/> */}
         <div className="intro-content">
-          <p>Hi! I'm a creative</p>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <p>I'm a Creative</p>
           <h1>MERN Developer</h1>
           <div className="wrapper">
             <button>
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
               <Link to="/project" className="btn">
                 Projects
               </Link>

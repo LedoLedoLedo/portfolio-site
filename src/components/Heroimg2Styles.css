@@ -1,9 +1,11 @@
 .hero-img {
-    content:'' ;
-    height: 100vh;
-    width: 100vw;
+    height: auto;
+    /* height: 75vh; */
+    width: 90%;
+    margin: auto;
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .hero-img:nth-child(odd) {
@@ -11,7 +13,7 @@
 }
 
 .hero-img h1 {
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
 
 .heading, .video-wrapper {
@@ -20,10 +22,12 @@
     justify-content: center;
     align-items: center;
     flex-basis: 50%;
+    /* overflow: scroll; */
+    padding: 5%;
 }
 
 .video-wrapper video {
-    width: 90%;
+    width: 100%;
 }
 
 .hero-img h1 {
