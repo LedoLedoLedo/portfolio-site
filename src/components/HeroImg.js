@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import mountain from "../assets/mountainrancho.jpeg";
+// import mountain from "../assets/mountainrancho.jpeg";
 
 const HeroImg = () => {
   return (
