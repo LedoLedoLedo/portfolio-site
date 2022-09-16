@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import mountain from "../assets/mountainrancho.jpeg";
+import skateClip from '../assets/skateclip.mp4'
 
 const HeroImg = () => {
   return (
     <div className="hero">
+    <video autoPlay loop muted id="video">
+        <source src={skateClip} type='video/mp4'/>
+
+    </video>
       <div className="mask">
         {/* <img className='he' src={mountain} alt="mountainImg"/> */}
         <div className="intro-content">

@@ -1,6 +1,7 @@
 label {
     /* color: rgb(24, 3, 3); */
     margin-bottom: 0.5rem;
+    margin-top: 0.3rem;
 }
 
 form {
@@ -33,7 +34,8 @@ form textarea {
 
 form input:focus, form textarea:focus {
     outline: none;
-    box-shadow: 10px 10px #cf4520;
+    box-shadow: 10px 10px rgb(207 69 32), 18px 18px rgb(255 142 4);
+    box-shadow: 10px 10px rgb(207 69 32), 15px 15px 0px 4px rgb(255 142 4);
 }
 
 form button.btn {
