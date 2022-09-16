@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Heroimg2 from "../components/Heroimg2";
 import NavBar from "../components/NavBar";
 import video1 from "../assets/weathermoodzrec.mov";
-import video2 from "../assets/gigatrecording.mov";
+import video2 from "../assets/gigatrecording720.mov";
 import video3 from "../assets/Breakingpoprec.mov";
 
 const projects = () => {

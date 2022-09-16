@@ -52,6 +52,11 @@
   object-fit: cover;
 
 } */
+#video {
+  position: fixed;
+  width: 100%;
+  z-index: -0;
+}
 
 .hero {
   height: 100vh;
