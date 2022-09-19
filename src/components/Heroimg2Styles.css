@@ -1,6 +1,5 @@
 .hero-img {
     height: auto;
-    /* height: 75vh; */
     width: 90%;
     margin: auto;
     display: flex;
@@ -22,7 +21,6 @@
     justify-content: center;
     align-items: center;
     flex-basis: 50%;
-    /* overflow: scroll; */
     padding: 5%;
 }
 
@@ -36,7 +34,6 @@
 
 .hero-img p {
     font-size: 1.4rem;
-    text-align: center;
 }
 
 @media screen and (max-width:640px) {
@@ -45,7 +42,6 @@
     }
     .hero-img p {
         font-size: 1.4rem;
-        text-align: center;
     }
 }
 
