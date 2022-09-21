@@ -1,4 +1,4 @@
-.hero-img {
+.SingleProject {
     height: auto;
     width: 90%;
     margin: auto;
@@ -7,12 +7,8 @@
     align-items: center;
 }
 
-.hero-img:nth-child(odd) {
+.SingleProject:nth-child(odd) {
     flex-direction: row-reverse;
-}
-
-.hero-img h1 {
-    text-transform: capitalize;
 }
 
 .heading, .video-wrapper {
@@ -28,25 +24,25 @@
     width: 100%;
 }
 
-.hero-img h1 {
+.SingleProject h1 {
     font-size: 2.4rem; 
 }
 
-.hero-img p {
+.SingleProject p {
     font-size: 1.4rem;
 }
 
 @media screen and (max-width:640px) {
-    .hero-img h1 {
+    .SingleProject h1 {
         font-size: 2rem;
     }
-    .hero-img p {
+    .SingleProject p {
         font-size: 1.4rem;
     }
 }
 
 @media (max-width: 1040px) {
-    .hero-img, .hero-img:nth-child(odd) {
+    .SingleProject, .SingleProject:nth-child(odd) {
         flex-direction: column-reverse;
     }
 }
