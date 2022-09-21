@@ -13,24 +13,28 @@ function NavBar() {
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={handleClick}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/project">Projects</Link>
+          <Link to="/project" onClick={handleClick}>
+            Projects
+          </Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link to="/about" onClick={handleClick}>
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" onClick={handleClick}>
+            Contact
+          </Link>
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
-        {click ? (
-          <FaTimes size={20} style={{ color: "black" }} />
-        ) : (
-          <FaBars size={20} style={{ color: "black" }} />
-        )}
+        {click ? <FaTimes size={20} /> : <FaBars size={20} />}
       </div>
     </div>
   );
