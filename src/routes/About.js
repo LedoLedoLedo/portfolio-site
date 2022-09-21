@@ -1,12 +1,9 @@
 import React from "react";
-import Footer from "../components/Footer";
-import NavBar from "../components/NavBar";
 import picMe from "../assets/alevegassmile.JPG";
 
 const About = () => {
   return (
     <div>
-      <NavBar />
       <br />
       <div className="aboutSection">
         <div className="aboutPic">
@@ -15,11 +12,11 @@ const About = () => {
         <div className="aboutText">
           <h1>Meet Alejandro</h1>
           <p>
-            Born in the Dominican Republic but raised in the USA, I graduated
-            from Ironhack and became a developer. I'm a programmer with a
-            background in music. I'm in love with The Arts and always looking
-            for a creative outlet. I am intertested in delivering top notch web
-            applications and sites.
+            Born in the Dominican Republic and raised in the USA, an Ironhack
+            graduate. I'm a programmer with a background in music and Audio
+            Visuals. I'm in love with The Arts and always looking for a creative
+            outlet. I am intertested in delivering top notch web applications
+            and sites.
           </p>
           <br />
           <section id="techList">
@@ -36,7 +33,6 @@ const About = () => {
           </section>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

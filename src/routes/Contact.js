@@ -1,17 +1,12 @@
-import React from 'react'
-import Footer from '../components/Footer'
-import Form from '../components/Form'
-import NavBar from '../components/NavBar'
+import React from "react";
+import Form from "../components/Form";
 
 const Contact = () => {
   return (
-    <div> 
-      <NavBar/>
-      <Form/>
-      <Footer/>
-      
+    <div>
+      <Form />
     </div>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
