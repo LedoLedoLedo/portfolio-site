@@ -4,11 +4,6 @@
   padding: 0%;
 }
 
-/* html, body {
-  width: 100vw;
-  height: 100vh;
-} */
-
 .nav-menu {
   display: flex;
   text-decoration: none;
@@ -39,20 +34,15 @@
   
 }
 
-/* .mask {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-} */
+#ProjectsContainer {
+  margin-top: 5%;
+}
 
-/* .intro-img {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  object-fit: cover;
+#ProjectsContainer h1 {
+  text-align: center;
+  text-transform: capitalize;
+}
 
-} */
 #video {
   position: relative;
   width: 100%;
