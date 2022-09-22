@@ -8,12 +8,12 @@ const HeroImg = () => {
       <video autoPlay loop muted id="video">
         <source src={skateClip} type="video/mp4" />
       </video>
-      <div className="intro-content">
-        {/* <span></span>
+      {/* <div className="intro-content"> */}
+      {/* <span></span>
           <span></span>
           <span></span>
           <span></span> */}
-        <p>I'm a Creative</p>
+      {/* <p>I'm a Creative</p>
         <h1>MERN Developer</h1>
         <div className="wrapper">
           <button>
@@ -27,7 +27,7 @@ const HeroImg = () => {
             </Link>
           </button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
