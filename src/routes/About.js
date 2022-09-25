@@ -13,7 +13,7 @@ const About = () => {
           Born in the Dominican Republic and raised in the USA. I'm a programmer
           and Ironhack graduate with a background in music and Audio Visuals.
           I'm in love with The Arts and always looking for a creative outlet. I
-          am intertested in delivering top notch web applications and sites.
+          am intertested in mobile apps, interactive instalations delivering top notch web applications and sites.
         </p>
         <br />
         <section id="techList">

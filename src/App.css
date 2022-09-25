@@ -99,7 +99,7 @@
 }
 
 
-.wrapper button, form button.btn {
+.wrapper .hero-btn, form button.btn {
   text-align: center;
   background-color: #fff;
   color: #cf4520;
@@ -109,11 +109,16 @@
   border-radius: 28px;
   padding: 8px 12px;
   text-decoration: none;
-  /* margin: 0 auto 14px auto; */
   border: solid 1px #cf4520;
   transition: all 200ms ease-in;
   cursor: pointer;
   text-transform: capitalize;
+}
+
+.wrapper .hero-btn:first-of-type {
+  background-color: #cf4520;
+  color: #fff;
+  /* border: solid 1px #fff; */
 }
 
 .nav-menu li a {
@@ -131,19 +136,21 @@
   outline: 1px solid #cf4520;
 }
 
-.wrapper button a:focus {
+.wrapper .hero-btn:focus {
   outline: none;
 }
 
-.wrapper button:hover, .wrapper button:focus, form button.btn:hover, form button.btn:focus {
+.wrapper .hero-btn:last-of-type:hover, .wrapper .hero-btn:last-of-type:focus, form button.btn:hover, form button.btn:focus {
   background-color: #cf4520;
   outline: 1px solid #cf4520;
-}
-
-.wrapper button:hover a, .wrapper button:focus a, form button.btn:hover, form button.btn:focus{
   color: #fff;
 }
 
+.wrapper .hero-btn:first-of-type:hover, .wrapper .hero-btn:first-of-type:focus {
+  background-color: #fff;
+  color: #c43b15;
+  box-shadow: 10px 10px rgb(207 69 32), 15px 15px 0px 4px rgb(255 142 4);
+}
 
 .intro-content span:nth-child(1){
   height: 7px;
@@ -361,14 +368,14 @@ ul {
   }
 
   .intro-content .wrapper {
-    display: block;  
+    flex-wrap: wrap; 
   }
 
   .hero .intro-content h1 {
     font-size: 5.5rem;
   }
 
-  .wrapper button {
+  .wrapper .hero-btn {
     width: 100%; 
     margin: 0.5em auto;
   }

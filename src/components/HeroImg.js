@@ -16,16 +16,12 @@ const HeroImg = () => {
         <p>I'm a Creative</p>
         <h1>MERN Developer</h1>
         <div className="wrapper">
-          <button>
-            <Link to="/project" className="btn">
-              Projects
-            </Link>
-          </button>
-          <button>
-            <Link to="/Contact" className="btn-light">
-              Contact
-            </Link>
-          </button>
+          <Link to="/project" className="hero-btn">
+            Projects
+          </Link>
+          <Link to="/Contact" className="hero-btn">
+            Contact
+          </Link>
         </div>
       </div>
     </div>
