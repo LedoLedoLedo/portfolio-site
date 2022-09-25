@@ -31,9 +31,6 @@
   left: 0;
   z-index: 1;
   background: #fff;
-  margin-bottom: 20px;
-  /* box-shadow: 0px 10px rgb(207 69 32), 0px 20px rgb(255 142 4); */
-  /* box-shadow: 0px 10px rgb(255 142 4), 0px 20px rgb(207 69 32); */
 }
 
 #ProjectsContainer {
@@ -62,7 +59,6 @@
 }
 
 .hero .intro-content {
-  
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -75,12 +71,24 @@
   font-size:  6.5rem;
   padding: 0.6rem 0 1.5rem;
   color: #fff;
+  text-shadow:
+    3px 3px 0 rgb(207 69 32),
+  -1px -1px 0 rgb(207 69 32),  
+    1px -1px 0 rgb(207 69 32),
+    -1px 1px 0 rgb(207 69 32),
+    1px 1px 0 rgb(207 69 32);
 }
 
 .hero .intro-content p {
   font-size: 4.5rem;
   font-weight: 200;
   color: #fff;
+  text-shadow:
+    3px 3px 0 rgb(207 69 32),
+  -1px -1px 0 rgb(207 69 32),  
+    1px -1px 0 rgb(207 69 32),
+    -1px 1px 0 rgb(207 69 32),
+    1px 1px 0 rgb(207 69 32);
 }
 
 .intro-content {
@@ -140,13 +148,13 @@
   outline: none;
 }
 
-.wrapper .hero-btn:last-of-type:hover, .wrapper .hero-btn:last-of-type:focus, form button.btn:hover, form button.btn:focus {
+form button.btn:hover, form button.btn:focus {
   background-color: #cf4520;
   outline: 1px solid #cf4520;
   color: #fff;
 }
 
-.wrapper .hero-btn:first-of-type:hover, .wrapper .hero-btn:first-of-type:focus {
+.wrapper .hero-btn:hover, .wrapper .hero-btn:focus {
   background-color: #fff;
   color: #c43b15;
   box-shadow: 10px 10px rgb(207 69 32), 15px 15px 0px 4px rgb(255 142 4);
@@ -347,7 +355,7 @@ ul {
     transition: 0.3s;
   }
 
-  .nav-menu.active{
+  .nav-menu.active {
     left: 0; 
     z-index: 4;
     background-color: #fff;
@@ -377,7 +385,7 @@ ul {
 
   .wrapper .hero-btn {
     width: 100%; 
-    margin: 0.5em auto;
+    margin: 1em auto;
   }
 
   .aboutSection {

@@ -13,7 +13,7 @@ function Footer() {
     <div className="footer">
       <div className="left">
         <div className="location">
-          <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
+          <FaHome size={20} style={{ color: "#cf4520", marginRight: "2rem" }} />
         </div>
         <div>
           <p>Coconut Grove, Miami, FL</p>
@@ -23,7 +23,10 @@ function Footer() {
       <div className="phone">
         <h4>
           {" "}
-          <FaPhone size={20} style={{ color: "#fff", marginLeft: "-1rem" }} />
+          <FaPhone
+            size={20}
+            style={{ color: "#cf4520", marginLeft: "-1rem" }}
+          />
           1-786-740-1456
         </h4>
       </div>
@@ -32,7 +35,7 @@ function Footer() {
           {" "}
           <FaMailBulk
             size={20}
-            style={{ color: "#fff", marginRight: "2rem" }}
+            style={{ color: "#cf4520", marginRight: "2rem" }}
           />
           alfea1983@gmail.com{" "}
         </a>
@@ -42,17 +45,20 @@ function Footer() {
         <a href="https://www.linkedin.com/in/alefdez83/">
           <FaLinkedin
             size={30}
-            style={{ color: "#fff", marginRight: "2rem" }}
+            style={{ color: "#cf4520", marginRight: "2rem" }}
           />
         </a>
         <a href="https://www.instagram.com/_alleypop_/">
           <FaInstagram
             size={30}
-            style={{ color: "#fff", marginRight: "2rem" }}
+            style={{ color: "#cf4520", marginRight: "2rem" }}
           />
         </a>
         <a href="https://github.com/LedoLedoLedo">
-          <FaGithub size={30} style={{ color: "#fff", marginRight: "2rem" }} />
+          <FaGithub
+            size={30}
+            style={{ color: "#cf4520", marginRight: "2rem" }}
+          />
         </a>
       </div>
     </div>
