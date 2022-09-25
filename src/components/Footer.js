@@ -28,14 +28,14 @@ function Footer() {
         </h4>
       </div>
       <div className="email">
-        <h4>
+        <a href="mailto:alfea1983@gmail.com">
           {" "}
           <FaMailBulk
             size={20}
             style={{ color: "#fff", marginRight: "2rem" }}
           />
           alfea1983@gmail.com{" "}
-        </h4>
+        </a>
       </div>
 
       <div className="social">
