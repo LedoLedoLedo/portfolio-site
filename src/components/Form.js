@@ -3,12 +3,12 @@ import formstyle from "../components/FormStyles.css";
 
 const Form = () => {
   return (
-    <div
-      className="form"
-      action="https://formsubmit.co/alfea1983@gmail.com"
-      method="POST"
-    >
-      <form>
+    <div>
+      <form
+        className="form"
+        action="https://formsubmit.co/alfea1983@gmail.com"
+        method="POST"
+      >
         <label>Your name</label>
         <input type="text" placeholder="First Last"></input>
         <label> Email </label>
