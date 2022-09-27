@@ -8,6 +8,7 @@ import {
   FaPhone,
 } from "react-icons/fa";
 
+
 function Footer() {
   return (
     <div className="footer">

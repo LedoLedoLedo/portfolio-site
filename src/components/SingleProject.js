@@ -11,7 +11,9 @@ class SingleProject extends Component {
           </video>
         </div>
         <div className="heading">
-          <h1>{this.props.heading}</h1>
+          <h1>
+            <a href={this.props.path}>{this.props.heading}</a>
+          </h1>
           <p> {this.props.text}</p>
         </div>
       </div>
